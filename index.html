@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="filtroTitulo">Filtrar por Título:</label>
+    <input type="text" id="filtroTitulo" name="filtroTitulo">
+    <button onclick="filtrarPorTitulo()">Filtrar</button>
+
+
+
+    <table id = "table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Chapters</th>
+                <th>Pages</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+
+    <script src="js/script.js">
+    </script>
+</body>
+</html>
